@@ -13,10 +13,10 @@ body {
     background-color: #ffffff;
 }
 
-img{
+/*img{
     margin: auto;
     display: block;
-}
+}*/
 
 .site-menu ul {
     display: flex;
@@ -29,12 +29,19 @@ img{
 
 .site-menu ul li a {
     font-family: "Noto Serif JP", serif;
+    font-size: 30px;
 }
 
 .header-logo {
     display: block;
-    width: 170px;
-    align-items: center;
+    width: 500px;
+    margin: auto;
+}
+
+.main-logo {
+    display: block;
+    width: 500px;
+    margin: auto;
 }
 
 /*
