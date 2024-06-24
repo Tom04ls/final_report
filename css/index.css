@@ -25,6 +25,9 @@ body {
 
 .site-menu ul {
     display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .site-menu ul li {
@@ -37,7 +40,7 @@ body {
 
 .site-menu ul li a {
     font-family: "Noto Serif JP", serif;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .header-logo {
