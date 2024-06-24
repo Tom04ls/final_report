@@ -35,12 +35,19 @@ body {
     margin-right: auto;
     color: #ffffff;
     list-style:none ;
-    padding: 20px;
 }
 
 .site-menu ul li a {
     font-family: "Noto Serif JP", serif;
     font-size: 36px;
+    text-decoration: none;
+    display: block;
+    padding:15px 50px;
+}
+
+.site-menu ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
 }
 
 .header-logo {
@@ -55,7 +62,6 @@ body {
     margin: auto;
     padding: 10px;
 }
-
 /*
 トップまで行くボタン
 ここから
