@@ -54,9 +54,16 @@ h1{
     padding:15px 30px;
 }
 
-.site-menu ul li a:hover{
-    text-decoration: underline;
-    text-decoration-color: #ffffff;
+.site-menu ul li a::after{
+    content: "";
+    display: block;
+    width: 0;
+    transition: 0.3s;
+    border-bottom: 1px solid #ffffff;
+}
+
+.site-menu ul li a:hover::after{
+    width: 100%;
 }
 
 .header-logo {
