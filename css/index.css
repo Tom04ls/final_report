@@ -18,6 +18,11 @@ body {
     display: block;
 }*/
 
+.site-menu{
+    background-color: #000000;
+    height: 50px;
+}
+
 .site-menu ul {
     display: flex;
 }
@@ -25,6 +30,9 @@ body {
 .site-menu ul li {
     margin-left: auto;
     margin-right: auto;
+    color: #ffffff;
+    list-style:none ;
+    padding: 10px;
 }
 
 .site-menu ul li a {
@@ -35,13 +43,14 @@ body {
 .header-logo {
     display: block;
     width: 500px;
-    margin: auto;
+    margin:auto;
+    height: 200px;
 }
-
 .main-logo {
     display: block;
     width: 500px;
     margin: auto;
+    padding: 10px;
 }
 
 /*
