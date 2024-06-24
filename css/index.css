@@ -13,10 +13,10 @@ body {
     background-color: #ffffff;
 }
 
-img{
+/*img{
     margin: auto;
     display: block;
-}
+}*/
 
 .site-menu ul {
     display: flex;
@@ -37,8 +37,14 @@ img{
 
 .header-logo {
     display: block;
-    width: 170px;
-    align-items: center;
+    width: 500px;
+    margin: auto;
+}
+
+.main-logo {
+    display: block;
+    width: 500px;
+    margin: auto;
 }
 
 /*
