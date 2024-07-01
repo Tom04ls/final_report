@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>ニュース</title>
         <link href="css/news.css" rel="stylesheet">
+        <script src="js/news.js"></script>
         <meta name="description" content="ニュース">
         <meta name="viewport" content="width=device-width">
     </head>
@@ -29,10 +30,10 @@
             <div class = "news"><!--この中でニュースを完結させる-->
                 <h1>News</h1> <!--h1タグで中央上の「NEWS」を設定する-->
 
-                <li class = "news4">
+                <li class = "news4" onclick="changeDisplay(this)">
                     <a><p>MFestチケット一般発売日決定</p></a>
                     <ul class = "con">
-                        <li class = "main-content4">
+                        <li class = "main-content">
                             <a>"MFest"のチケットを9月43日に発売します！
                                 <p>詳細はお楽しみに</p>
                             </a>
@@ -40,10 +41,10 @@
                     </ul>
                 </li>
 
-                <li class = "news3">
+                <li class = "news3"onclick="changeDisplay(this)">
                     <a><p>MFestチケット先行販売中</p></a>
                     <ul class = "con">
-                        <li class = "main-content3">
+                        <li class = "main-content">
                             <a>"MFest"のチケットを8月67日から発売中！
                                 <p>今購入すると特典あります</p>
                             </a>
@@ -51,10 +52,10 @@
                     </ul>
                 </li>
                 
-                <li class = "news2">
+                <li class = "news2"onclick="changeDisplay(this)">
                     <a><p>MFestオンライン開催決定！</p></a>
                     <ul class = "con">
-                        <li class = "main-content2">
+                        <li class = "main-content">
                             <a>"MFest"の生放送が決定しました！
                                 <p>詳細はお楽しみに</p>
                             </a>
@@ -62,10 +63,10 @@
                     </ul>
                 </li>
 
-                <li class ="news1">
+                <li class ="news1"onclick="changeDisplay(this)">
                     <a><p>MFest開催決定！</p></a><!--news追加ここから-->
                     <ul class = "con">
-                        <li class = "main-content1">
+                        <li class = "main-content">
                             <a>"MFest"の開催が決定しました！
                                 <p>Day1は11月・Day2は12月・Day3は13月に開催します！</p>
                                 <p><b>MFest</b></p>

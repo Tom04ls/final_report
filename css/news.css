@@ -91,38 +91,6 @@ h1{
 
 
 
-/*newsのセット　ここから*/
-.news1:active .main-content1{
-    display: block;
-}
-.main-content1{ /*news詳細を隠す*/
-    display: none;
-}
-/*ここまで。メニュー一つ毎に追加？*/
-
-.news2:active .main-content2{
-    display: block;
-}
-.main-content2{
-    display: none;
-}
-
-.news3:active .main-content3{
-    display: block;
-}
-.main-content3{
-    display: none;
-}
-
-.news4:active .main-content4{
-    display: block;
-}
-.main-content4{
-    display: none;
-}
-
-
-
 
 .news a{
     color:orange;
@@ -134,7 +102,7 @@ h1{
 
 .con {
     list-style: none;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
