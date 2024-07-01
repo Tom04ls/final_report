@@ -1,15 +1,152 @@
 @charset "utf-8";
 
-a{
+a {
     color: inherit;
+    text-decoration: none;
 }
+
+body {
+    font-family: sans-serif;
+    font-size: 16pt;
+    color: #000000;
+    line-height: 1;
+    background-color: #ffffff;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    padding: 0 0;
+    background-color: #ffffff;
+}
+
+h1{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Noto Serif JP", serif;
+    font-size:36px;
+    height: 40px;
+    padding-top:10px ;
+    text-align: center;
+}
+/*img{
+    margin: auto;
+    display: block;
+}*/
+
+.site-menu{
+    background-color: #000000;
+    height: 70px;
+}
+
+.site-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-menu ul li {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    list-style:none ;
+}
+
+.site-menu ul li a {
+    font-family: "Noto Serif JP", serif;
+    font-size: 36px;
+    text-decoration: none;
+    display: block;
+    padding:15px 30px;
+}
+
+.site-menu ul li a::after{
+    content: "";
+    display: block;
+    width: 0;
+    transition: 0.3s;
+    border-bottom: 1px solid #ffffff;
+}
+
+.site-menu ul li a:hover::after{
+    width: 100%;
+}
+
+.header-logo {
+    display: block;
+    width: 500px;
+    margin:auto;
+    height: 250px;
+}
+.main-logo {
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+/*newsのセット　ここから*/
+.news1:active .main-content1{
+    display: block;
+}
+.main-content1{ /*news詳細を隠す*/
+    display: none;
+}
+/*ここまで。メニュー一つ毎に追加？*/
+
+.news2:active .main-content2{
+    display: block;
+}
+.main-content2{
+    display: none;
+}
+
+.news3:active .main-content3{
+    display: block;
+}
+.main-content3{
+    display: none;
+}
+
+.news4:active .main-content4{
+    display: block;
+}
+.main-content4{
+    display: none;
+}
+
+
+
 
 .news a{
     color:orange;
+    text-align: center;
 }
-.main-content{
-    list-style:none;
+.news li{
+    list-style: none;
 }
-.main-content a{
+
+.con {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+
+.con a {
     color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
 }
