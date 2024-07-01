@@ -106,7 +106,7 @@ h1{
     display: none;
     width: auto;
     height: auto;
-    background-color: aquamarine;/*詳細の背景の色*/
+    background-color: #e4f9fa;/*詳細の背景の色*/
     border: 1px solid #000000;
     text-align: center;
     padding: 10px;
