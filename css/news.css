@@ -98,7 +98,6 @@ h1{
     width: 650px;
     margin: 20px auto;
     height: auto;/*ここ変えたら終わる*/
-    text-align: center;
     padding:20px 0px 0px 0px;
 }
 
@@ -109,10 +108,11 @@ h1{
     height: auto;
     background-color: aquamarine;/*詳細の背景の色*/
     border: 1px solid #000000;
+    text-align: center;
     padding: 10px;
 }
 
-.news .con a{/*詳細の文字の色*/
+.con a{/*詳細の文字の色*/
     width: 750px;
     margin: 5px auto 5px auto;/*このブロックの位置調整*/
     color:black;
@@ -120,8 +120,8 @@ h1{
     opacity: 0.9;
 }
 
-.news c{/*年月日の色*/
-    color:skyblue;
+.news .date{/*年月日色*/
+    color:#b28686;
 }
 .newsS li{
     list-style: none;
