@@ -93,8 +93,8 @@ h1{
 
 
 .news {
-    color: white;
-    background-color: black;
+    color: white;/*見出しの文字色*/
+    background-color: black;/*見出しの色*/
     width: 650px;
     margin: 20px auto;
     height: auto;/*ここ変えたら終わる*/
@@ -107,18 +107,21 @@ h1{
     display: none;
     width: auto;
     height: auto;
-    background-color: aquamarine;
+    background-color: aquamarine;/*詳細の背景の色*/
     border: 1px solid #000000;
     padding: 10px;
 }
 
-.news .con a{
+.news .con a{/*詳細の文字の色*/
     width: 750px;
     margin: 5px auto 5px auto;/*このブロックの位置調整*/
     color:black;
     text-align: center;
     opacity: 0.9;
-    
+}
+
+.news c{/*年月日の色*/
+    color:skyblue;
 }
 .newsS li{
     list-style: none;
