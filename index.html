@@ -7,6 +7,7 @@
 <!--     <script src="js/button.js" defer></script> -->
         <meta name="description" content="架空ライブイベント">
         <meta name="viewport" content="width=device-width">
+        <script src="js/changeimg.js"></script>
     </head>
     <body>
         <div class="pgtp">top</div>
@@ -36,21 +37,43 @@
                 <p>
                     ニュースの内容記述欄(暫定)
                 </p>
-                <a class="detail" href="detail.html">DETAIL</a>
+                <a class="detail" href="news.html">DETAIL</a>
             </div>
         </main>
         <footer class="footer">
-            <nav class="photos">
+            <div class="photos">
                 <h1>Photos</h1>
-                <ul>
-                    <li><a href="picture1.png"><img src="" alt="写真1"></a></li>
-                    <li><a href="picture2.png"><img src="" alt="写真2"></a></li>
-                    <li><a href="picture3.png"><img src="" alt="写真3"></a></li>
-                    <li><a href="picture4.png"><img src="" alt="写真4"></a></li>
-                    <li><a href="picture5.png"><img src="" alt="写真5"></a></li>
-                    <li><a href="picture6.png"><img src="" alt="写真6"></a></li>
-                </ul>
-            </nav>
+                <button class="slider-button prev-button">&lt;</button>
+                <div class="photos-slider-container">
+                    <div class="photos-slider-wrapper">
+                        <div class="slider-item">
+                            <img src="images/photos/picture1.png" alt="写真1">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="images/photos/picture2.png" alt="写真2">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="images/photos/picture3.png" alt="写真3">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="images/photos/picture4.png" alt="写真4">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="images/photos/picture5.png" alt="写真5">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="images/photos/picture6.png" alt="写真6">
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-button next-button">&gt;</button>
+            </div>
             <nav class="links">
                 <h1>LINKS</h1>
                 <ul>
