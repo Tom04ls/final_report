@@ -27,6 +27,16 @@ body {
     background-color: #ffffff;
 }
 
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    padding: 0 0;
+    background-color: #ffffff;
+}
+
 h1{
     background-color: #000000;
     color: #ffffff;
@@ -36,10 +46,7 @@ h1{
     padding-top:10px ;
     text-align: center;
 }
-/*img{
-    margin: auto;
-    display: block;
-}*/
+
 
 .site-menu{
     background-color: #000000;
