@@ -95,9 +95,9 @@ h1{
 .news {
     color: white;
     background-color: black;
-    width: 750px;
-    margin: 5px auto;
-    height: auto;
+    width: 650px;
+    margin: 20px auto;
+    height: auto;/*ここ変えたら終わる*/
     text-align: center;
     padding:20px 0px 0px 0px;
 }
@@ -109,6 +109,7 @@ h1{
     height: auto;
     background-color: aquamarine;
     border: 1px solid #000000;
+    padding: 10px;
 }
 
 .news .con a{
