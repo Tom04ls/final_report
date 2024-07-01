@@ -130,11 +130,48 @@ photosタグの部分
     color: #ffffff;
     background: #000000;
     opacity: 0;/*非表示設定*/
-  }
+}
 
-  .pgtp:hover {
+.pgtp:hover {
     box-shadow: 0 0 12px #000000;
-  }
-  /*
-  ここまで
-  /*
+}
+
+
+@media (max-width: 800px) {
+
+    .header-logo {
+        width: 800px;
+        margin-left:200px;
+        margin-right: 200px;
+        height: 250px;
+    }
+    
+    .site-menu{
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .news{
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .photos{
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .links{
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main-logo{
+        margin-left:250px;
+        margin-right: 150px;
+    }
+}
