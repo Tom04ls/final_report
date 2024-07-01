@@ -3,3 +3,13 @@
 a{
     color: inherit;
 }
+
+.news a{
+    color:orange;
+}
+.main-content{
+    list-style:none;
+}
+.main-content a{
+    color: black;
+}
