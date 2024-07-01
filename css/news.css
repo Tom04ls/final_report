@@ -28,8 +28,10 @@ h1{
     color: #ffffff;
     font-family: "Noto Serif JP", serif;
     font-size:36px;
-    height: 40px;
-    padding-top:10px ;
+    height: 30px; /*ブロックの大きさ変更*/
+    padding:30px; /*ブロックの大きさ変更2*/
+    width: 25%;/*ブロックのサイズ変更*/
+    margin: 30px auto;/*このブロックの位置調整*/
     text-align: center;
 }
 /*img{
@@ -90,63 +92,55 @@ h1{
 }
 
 
-
-/*newsのセット　ここから*/
-.news1:active .main-content1{
-    display: block;
-}
-.main-content1{ /*news詳細を隠す*/
-    display: none;
-}
-/*ここまで。メニュー一つ毎に追加？*/
-
-.news2:active .main-content2{
-    display: block;
-}
-.main-content2{
-    display: none;
-}
-
-.news3:active .main-content3{
-    display: block;
-}
-.main-content3{
-    display: none;
-}
-
-.news4:active .main-content4{
-    display: block;
-}
-.main-content4{
-    display: none;
-}
-
-
-
-
-.news a{
-    color:orange;
+.news {
+    color: white;
+    background-color: black;
+    width: 650px;
+    margin: 20px auto;
+    height: auto;/*ここ変えたら終わる*/
     text-align: center;
+    padding:20px 0px 0px 0px;
 }
-.news li{
+
+.news .con {
+    list-style: none;
+    display: none;
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.news .con a{
+    width: 750px;
+    margin: 5px auto 5px auto;/*このブロックの位置調整*/
+    color:black;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+.newsS li{
     list-style: none;
 }
+@media (max-width: 800px) {
 
-.con {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 50%;
-}
+    .header-logo {
+        width: 800px;
+        margin-left:200px;
+        margin-right: 200px;
+        height: 250px;
+    }
+    
+    .site-menu{
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+    }
 
-.con a {
-    color: black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
+    .newsS{
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+    }
 }
