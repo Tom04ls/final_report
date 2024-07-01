@@ -120,14 +120,20 @@ h1{
     }
 
     .site-menu{
-        width: 800px;
+        width: 1000px;
+        padding: 0;
+        margin: 0;
     }
 
     .title{
-        width: 800px;
+        width: 1000px;
+        padding: 0;
+        margin: 0;
     }
 
     .day{
-        width: 800px;
+        width: 1000px;
+        padding: 0;
+        margin: 0;
     }
 }
