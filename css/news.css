@@ -28,8 +28,10 @@ h1{
     color: #ffffff;
     font-family: "Noto Serif JP", serif;
     font-size:36px;
-    height: 40px;
-    padding-top:10px ;
+    height: 30px; /*ブロックの大きさ変更*/
+    padding:30px; /*ブロックの大きさ変更2*/
+    width: 25%;/*ブロックのサイズ変更*/
+    margin: 30px auto;/*このブロックの位置調整*/
     text-align: center;
 }
 /*img{
@@ -90,31 +92,33 @@ h1{
 }
 
 
-
-
-.news a{
-    color:orange;
+.news {
+    color: white;
+    background-color: black;
+    width: 750px;
+    margin: 5px auto;
+    height: auto;
     text-align: center;
-}
-.news li{
-    list-style: none;
+    padding:20px 0px 0px 0px;
 }
 
-.con {
+.news .con {
     list-style: none;
     display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 50%;
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    border: 1px solid #000000;
 }
 
-.con a {
-    color: black;
+.news .con a{
+    width: 750px;
+    margin: 5px auto 5px auto;/*このブロックの位置調整*/
+    color:black;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
+    opacity: 0.9;
+    
+}
+.newsS li{
+    list-style: none;
 }
