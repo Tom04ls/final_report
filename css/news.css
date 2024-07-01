@@ -122,3 +122,31 @@ h1{
 .newsS li{
     list-style: none;
 }
+@media (max-width: 800px) {
+
+    .header-logo {
+        width: 800px;
+        margin-left:200px;
+        margin-right: 200px;
+        height: 250px;
+    }
+    .map {
+        width: 800px;
+        margin: 75px auto 0; /* 上下に余白を持たせて中央揃え */
+    }
+    
+    .map iframe {
+        display: block;
+        width: 800px;
+        height: 600px;
+        margin-top: 25px;
+    }
+
+    .site-menu{
+        width: 800px;
+    }
+
+    .newsS{
+        width: 800px;
+    }
+}
