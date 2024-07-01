@@ -218,4 +218,9 @@ photosタグの部分
         padding: 0;
         margin: 0;
     }
+    
+    .main-logo{
+        margin-left:250px;
+        margin-right: 150px;
+    }
 }
