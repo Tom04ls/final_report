@@ -82,11 +82,17 @@ h1{
     margin:auto;
     height: 250px;
 }
+
 .main-logo {
-    display: block;
-    width: 500px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
+}
+
+.main-logo img {
+    width: 100%;
+    height: auto;
 }
 
 /**
