@@ -103,9 +103,22 @@ photosタグの部分
     margin:0 10px;/*スライド左右の余白調整*/
 }
 
-.links ul li{
-    list-style:none ;
+.links ul {
+    padding: 0;
+    text-align: center;
 }
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.links ul li img {
+    width: 40px;
+    height: 40px;
+}
+
 
 @media (max-width: 800px) {
 
